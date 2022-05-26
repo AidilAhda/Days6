@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sign_in"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ivlogo"
+            android:background="@drawable/logotext"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/logo" />
+
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivlogo"
+            android:layout_marginTop="35dp"
+            android:fontFamily="monospace"
+            android:text="@string/silahkan_login"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="34dp"
+            android:autofillHints="password"
+            android:drawableStart="@drawable/ic_person"
+            android:hint="Username"
+            android:inputType="text"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="34dp"
+            android:drawableStart="@drawable/ic_password"
+            android:hint="password"
+            android:textAlignment="center"
+            android:autofillHints="username"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPassword"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/btn_sign_in"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:text="@string/create_account"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/tvBuatAkun"/>
+    </RelativeLayout>
+</LinearLayout>

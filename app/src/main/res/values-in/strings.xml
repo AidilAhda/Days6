@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hari 6</string>
+    <string name="navigation_drawer_open">Buka Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Navigasi</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Kepala Navigasu</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="menu_home">Rumah</string>
+    <string name="menu_gallery">Galeri</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="developer">Developer</string>
+    <string name="silahkan_login">Silahkan Login</string>
+    <string name="sign_in">Masuk</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="password">Password</string>
+    <string name="create_account">Buat Akun?</string>
+    <string name="logo">logo</string>
+</resources>
